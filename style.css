@@ -74,7 +74,9 @@ h1 {
 	text-indent: 0px;
 }
 
-
+a h1:hover {
+	color: #5A5A5A;
+}
 h2 {
 	width: 800px;
 	background-color: #D7D7D7;

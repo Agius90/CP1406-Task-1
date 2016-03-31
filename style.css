@@ -1,7 +1,7 @@
 @charset "utf-8";
 html {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	background-color: #C2D6FF;
+	background-color: #303B98;
 }
 
 .container {
@@ -51,8 +51,6 @@ html {
 }
 		
 .nav {
-	padding-top: 1em;
-	padding-bottom: 1em;
 	text-align: center;
 }
 
@@ -61,13 +59,15 @@ h1 {
 	height: 1em;
 	border-bottom-color: #000000;
 	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-top-style: solid;
 	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-family: 'Changa One', cursive;
 	font-size: 6em;
-	margin-top: 10px;
+	margin-top: -8px;
 	padding-bottom: .2em;
 	margin-bottom: 0;
 	color: #000000;
@@ -83,22 +83,22 @@ h2 {
 	border-bottom-color: #000000;
 	border-top-style: solid;
 	border-top-color: #000000;
-	padding-bottom: .3em;
-	padding-top: .3em;
+	padding-bottom: 0.2em;
+	padding-top: 0.2em;
 	margin: auto;
 	font-size: 2.5em;
 	}
 
 .content {
-	height: 100%;
+	height: calc(100% - 25.4em);
 	position:fixed;
-    top:em;
-	bottom: auto;
-    width: 800px;
+    width: calc(800px - 6em);
 	background-color: #FFFFFF;
-	padding-top: 3em;
-	padding-bottom: 3em;
-
+	padding-top: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 1em;
+	overflow-y:auto;
 }
 
 .footer {
@@ -111,11 +111,12 @@ h2 {
 	border-top-style: solid;
 	border-top-color: #000000;
 	padding-bottom: 0em;
-	padding-top: 1em;
-	border-bottom: 10px solid #C2D6FF;
+	padding-top: 0;
+	border-bottom: solid #000000;
 	
 }
 
 a:link {
-    text-decoration: none;
+	text-decoration: none;
+	color: blue;
 }

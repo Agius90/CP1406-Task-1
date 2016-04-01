@@ -122,3 +122,27 @@ a:link {
 	text-decoration: none;
 	color: blue;
 }
+
+#toptable {
+	width:600px;
+}
+
+#toptable1 {
+	width:439px
+}
+
+#toptable2 {
+	width:46px
+}
+
+#toptable3 {
+	width:99px
+}
+
+table {
+	width:600px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
